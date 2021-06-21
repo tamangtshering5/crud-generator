@@ -14,7 +14,7 @@ After installation, you have to publish config file.
 php artisan vendor:publish --tag=crud-config
 ```
 
-#Usage
+##Usage
 To generate module enter following command
 ```php
 php artisan create:module moduleName --migration //--migration is optional
