@@ -1,0 +1,28 @@
+{
+    "name": "pemba/crud",
+    "description": "create initial stage crud for easy setup",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pemba Tamang",
+            "email": "tamangtshering5@gmail.com",
+            "homepage": "https://www.tamangtshering.com.np",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pemba\\Crud\\": "src/"
+        }
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Pemba\\Crud\\CrudServiceProvider"
+        ]
+    }
+}
+}

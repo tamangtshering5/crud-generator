@@ -1,0 +1,8 @@
+<?php
+use Illuminate\Support\Facades\Route;
+
+$namespace = 'Modules\{{moduleNameCamelCase}}\Http\Controllers';
+
+Route::group(['namespace'=>$namespace,'middleware' => ['web'],'prefix'=>'cms','as'=>'cms.'],function () {
+    Route::resource('{{modelNameSingularLowerCase}}','{{moduleNameCamelCase}}Controller');
+});
