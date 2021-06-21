@@ -1,5 +1,8 @@
 ## Crud Generator for initial setup - Documentation
-
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/tamangtshering5/crud-generator?label=release)
+[![Issues](https://img.shields.io/github/issues/tamangtshering5/crud-generator?style=flat)](https://github.com/tamangtshering5/crud-generator/issues)
+[![Stars](https://img.shields.io/github/stars/tamangtshering5/crud-generator?style=flat)](https://github.com/tamangtshering5/crud-generator/stargazers)
+![GitHub](https://img.shields.io/github/license/tamangtshering5/crud-generator)
 ### Install
 ```php
 composer require pemba/crud
