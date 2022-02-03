@@ -17,6 +17,7 @@ class CrudServiceProvider extends ServiceProvider
 
     public function boot()
     {
+        require 'helpers.php';
         $this->loadRoutesFrom(__DIR__.'/Routes/web.php');
         $this->publishes([
             __DIR__.'/../config/crud.php' => config_path('crud.php')
